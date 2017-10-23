@@ -15,7 +15,7 @@ app.config['MYSQL_PASSWORD'] = 'dengima'
 app.config['MYSQL_DB'] = 'myflaskapp'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
-# init MYSQL_DB
+#init MYSQL_DB
 mysql = MySQL(app)
 
 
